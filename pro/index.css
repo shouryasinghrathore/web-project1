@@ -18,15 +18,15 @@ bottom: 45.9px;
    
 }
 .child{  background-color: rgb(255, 255, 255);
-    width: 86vh; height: 90.5vh;
+    width: 85vh; height: 86.5vh;
 }  
 .home{ background-color: rgb(7, 87, 161);
     margin-left: -40px;
-    padding-bottom: 0.6vh;
+    padding-bottom: 5px;
 }
 li{  display: inline-block;
-    padding: 6px;
- font-size:14px;
+    padding: 6.2px;
+ font-size:16px;
 }
 .k{
     color: rgb(12, 87, 185);
@@ -38,12 +38,12 @@ li{  display: inline-block;
 .left{ 
     display: inline-block;
  padding-left: 6px;
-    font-size: 12px;  width: 67vh;
+    font-size: 16px;  width: 67vh;
    
 }
 .right{ display: inline-block;
     width: 30vh;
-    font-size:12px;
+    font-size:16px;
     padding-right: 1.6px;
 } 
 .container{
@@ -51,16 +51,16 @@ display: flex;
     justify-content: space-between;
 }
 .black{
- height: 16.6vh; 
+ height: 18vh; 
  
     background-color: black;
 } 
 .ptag{
-    font-size: 15.5px;
+    font-size: 19.5px;
 }
 .footer{ text-align: center; 
     position: relative;
-    top: 97.4px;
+    top: 130.4px;
     color: cornsilk; 
     padding: 20px;
     background-color:  rgb(14, 142, 247);
