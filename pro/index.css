@@ -20,18 +20,22 @@ bottom: 45.9px;
 .child{  background-color: rgb(255, 255, 255);
     width: 60%; 
 }  
-.home{ background-color: rgb(7, 87, 161);
+.home{
     margin-left: -40px;
-    padding-bottom: 2.5px;
-    padding-right: 11px;
+    
+    /* padding-right: 11px; */
    
-     /* padding: 55px;  */
-line-height: 36px; 
+line-height: 35px; 
 }
 li{ 
      display: inline-block;
-    padding: 7.2px;
+    padding: 6px;
  font-size:18px;  
+}
+li:hover{ background-color: rgb(7,86, 161);
+     /* padding-bottom: 1.5px; */
+    padding: 13.3px;
+
 }
 .k{
     color: rgb(12, 87, 185);
