@@ -1,91 +1,98 @@
 *{ bottom: 0;
     margin: 0;
-   box-sizing: content-box;
  font-family: sans-serif;
-background-repeat: no-repeat;
+ box-sizing: border-box;
+
 }
-body{
-     position: relative;
-     top: .0vh;
+body{background-repeat: no-repeat;
+     
     background-image: url("rm218batch7-katie-04.jpg");
-background-size: 100vw 100vw;
+background-size: cover ;
 }
-.box{ display: flex; 
-    position: relative;
+.box{  
+
+display: flex;
 bottom: 45.9px;
     position:relative;
     justify-content: center;
    
 }
 .child{  background-color: rgb(255, 255, 255);
-    width: 85vh; height: 86.5vh;
+    width: 60%; 
 }  
 .home{ background-color: rgb(7, 87, 161);
     margin-left: -40px;
-    padding-bottom: 5px;
+    padding-bottom: 2.5px;
+    padding-right: 11px;
+   
+     /* padding: 55px;  */
+line-height: 36px; 
 }
-li{  display: inline-block;
-    padding: 6.2px;
- font-size:16px;
+li{ 
+     display: inline-block;
+    padding: 7.2px;
+ font-size:18px;  
 }
 .k{
     color: rgb(12, 87, 185);
 }
-.topnav{ text-align: start; height: 46px; line-height: 36px;
+.topnav{  
+     height: 46px; 
      color: rgb(253, 253, 253);
     background-color: rgb(14, 142, 247);
 }
 .left{ 
     display: inline-block;
  padding-left: 6px;
-    font-size: 16px;  width: 67vh;
+    font-size: 20px; 
+     width: 60%;
+    /* flex-wrap: wrap; */
    
 }
 .right{ display: inline-block;
-    width: 30vh;
-    font-size:16px;
-    padding-right: 1.6px;
+    width: 40%;
+    font-size:20px;
+    padding-right: 1.6px;   
+    /* flex-wrap: wrap; */
 } 
 .container{
 display: flex;
     justify-content: space-between;
 }
 .black{
- height: 18vh; 
- 
+ height: 110px; 
     background-color: black;
 } 
 .ptag{
-    font-size: 19.5px;
+    font-size: 25.2px;
 }
 .footer{ text-align: center; 
-    position: relative;
-    top: 130.4px;
+  
+    margin-top: 30px;
     color: cornsilk; 
-    padding: 20px;
+    padding: 15px; 
     background-color:  rgb(14, 142, 247);
-    font-size: 11px;
-
+    font-size: 18px;
 } 
 .se{
     font-size: 2.6vh; 
-   
-
 }
 .search{  position: relative;
-    /* width: 23px; */
     top: 5px;
 }
-.form{ height: 10px;
-    width:57px;
+.form{ height: 15px;
+    width:59px;
 }
-.textb{ font-size: 22px; position: relative;
-margin-left: 60vh;  
-
-top: 6px;
-    color: rgb(70, 126, 247);
+.textb{ font-size: 29px;
+     position: relative;
+margin-left: 20%;  
+top: 7px;
+    color: rgb(44, 97, 211);
  }
- .lo{top: 1vh;
-     color: rgb(202, 199, 199); padding-left: 60.1vh;
+
+ .lo{
+     margin-top:5px; 
+     color: rgb(202, 199, 199); 
+     padding-left: 20%;
      font-size: 11px;
  }
