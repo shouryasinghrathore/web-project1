@@ -17,32 +17,25 @@ bottom: 45.9px;
     justify-content: center;
    
 }
-.child{  background-color: rgb(255, 255, 255);
-    width: 60%; 
+.child{  background-color: rgb(255, 255, 255);    width: 65%; 
 }  
-.home{
-    margin-left: -40px;
-    
-    /* padding-right: 11px; */
-   
-line-height: 35px; 
+
+li{ font-size:23px;   
+    padding: 4.4px;
+    display: inline-block; color: rgb(253, 253, 253);
 }
-li{ 
-     display: inline-block;
-    padding: 6px;
- font-size:18px;  
-}
-li:hover{ background-color: rgb(7,86, 161);
+ul li:hover{ background-color: rgb(7,86, 161);
      /* padding-bottom: 1.5px; */
-    padding: 13.3px;
+    /* padding: 13.3px; */
 
 }
 .k{
     color: rgb(12, 87, 185);
 }
-.topnav{  
-     height: 46px; 
-     color: rgb(253, 253, 253);
+.topnav{   
+    padding: 1px 0px; 
+     /* height: 46px;  */
+    
     background-color: rgb(14, 142, 247);
 }
 .left{ 
