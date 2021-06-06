@@ -9,31 +9,29 @@ body{background-repeat: no-repeat;
     background-image: url("rm218batch7-katie-04.jpg");
 background-size: cover ;
 }
+
 .box{  
 
 display: flex;
-bottom: 45.9px;
+bottom: 39.3px;
     position:relative;
     justify-content: center;
    
 }
-.child{  background-color: rgb(255, 255, 255);    width: 65%; 
+.child{  background-color: rgb(255, 255, 255);    width: 60%; 
 }  
 
-li{ font-size:23px;   
-    padding: 4.4px;
+li{ font-size:22px;   
+    padding: 4.8px;
     display: inline-block; color: rgb(253, 253, 253);
 }
 ul li:hover{ background-color: rgb(7,86, 161);
-     /* padding-bottom: 1.5px; */
-    /* padding: 13.3px; */
-
 }
 .k{
     color: rgb(12, 87, 185);
 }
 .topnav{   
-    padding: 1px 0px; 
+    padding: 0.9px 0px; 
      /* height: 46px;  */
     
     background-color: rgb(14, 142, 247);
